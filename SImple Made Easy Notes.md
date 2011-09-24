@@ -88,7 +88,7 @@ What's true of every bug in the field
 
 passed the test, and the type checker.
 
-Now what the fuck do we do?
+Now what the heck do we do?
 
 "Guard rail" driven development?  Do the guard rails guide you places?
 
@@ -155,15 +155,25 @@ What is In Your Toolkit?
 ========================
 
 COmplex           Simple
+
 state, objects    Values
+
 methods           functions, namespaces
+
 vars              managed refs
+
 inheritence, switch, matching   polyumorphism
+
 syntax              data
+
 imperative loops, fold                  set functions
+
 actors                 queues
+
 ORM                      declarative data manipulation
+
 conditionals              rules
+
 inconsistency             consistent
 
 
@@ -216,14 +226,23 @@ Clojure and Haskell refs compose value and time
 Does your var do that?
 
 State c-> Everthinyg they touch
+
 Objects c-> State, identity, value
+
 MEthods c-> function and state, namspaces
+
 Syntax c-> meaning, order
+
 Inheritance c-> types
+
 swithicng/matching     multiple who what pairs
+
 variables                value, time
+
 loop, fold             what/how
+
 actors                 what to do, who does it
+
 ORM                    OMG
 
 Simplicity != Easy
